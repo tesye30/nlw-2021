@@ -14,7 +14,7 @@ html{
     --blue: #3485FF;
     --overlay: #040911;
     --background: #FBFCFF;
-    --Icons-details: #A5B0C1;
+    --icons-details: #A5B0C1;
 
     --grey-dark: #4D5E77;
     --grey-blue: #A1B2CD;
@@ -26,8 +26,10 @@ html{
 }
 
 body {
+    display: flex;
     height: 100vh;
     background: var(--background);
+
 }
 
 body, button, input, textarea{
